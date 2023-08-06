@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formt</title>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+      
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your name..">
+      
+          <label for="Email">Email</label>
+          <input type="text" id="Email"placeholder="Enter your Email..">
+      
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" placeholder="Write something..">
+          <input type="button" value="button" onClick="Send()">
+      
+        </form>
+      </div>
+      <script src="https://smtpjs.com/v3/smtp.js"> </script>
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <script src="script.js"></script>
+</body>
+</html>
